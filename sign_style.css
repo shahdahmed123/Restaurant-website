@@ -1,0 +1,86 @@
+
+body{
+    background-color: white;
+}
+.all{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+h1{
+    text-align: center;
+    padding: 15px;
+    font-size: 45px;
+    font-family:"Brush Script MT", cursive;
+    color: rgb(235, 226, 107);
+}
+h3{
+    text-align: center;
+    font-size: 35px;
+    font-family: Copperplate, Papyrus, fantasy;
+    color: red;
+}
+form{
+    width: 450px;
+    margin-left: 100px;
+}
+form label{
+    color:red;
+    display: flex;
+    margin-top: 20px;
+    font-size: 45px;
+    font-family:"Brush Script MT", cursive;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid rgba(158, 20, 20, 0.945)(128, 128, 128, 0.493);
+    border-radius: 6px;
+    outline: none;
+}
+input[type="submit"]{
+    width: 250px;
+    height: 25x;
+    margin-top: 30px;
+    
+    background-color: rgb(235, 226, 107);
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: Copperplate, Papyrus, fantasy;
+
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+
+}
+.para-2{
+    text-align: center;
+    color: rgb(10, 41, 41);
+    font-size: 300px;
+    margin-top: -10px;
+    color: black;
+    background-color: rgba(227, 236, 102, 0.062);
+    font-family: Copperplate, Papyrus, fantasy;
+}
+.para-2 a{
+    color: rgb(1, 11, 12);
+}
+.sign-box{
+    width: 900px;
+    height: 900px;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+.first{
+background-color: rgb(3, 0, 0);
+}
+h2{
+color:rgb(65, 5, 5);
+font-size: 45px;
+font-family: Copperplate, Papyrus, fantasy; 
+}
+

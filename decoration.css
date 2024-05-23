@@ -1,0 +1,123 @@
+*{
+  box-sizing: border-box;
+  }
+body {
+  background-color: whitesmoke;
+  margin: 0;
+}
+
+h1 {
+
+  color: rgb(202, 19, 19);
+  text-align: center;
+}
+h2{
+  color: #140216;
+  font-family: 'Courier New', Courier, monospace;
+}
+h5{
+  color: #190124;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(221, 184, 184);
+}
+p {
+  
+  font-family: Cursive;
+  font-size: 25px;
+  color: rgb(95, 64, 17);
+}
+ul {
+  margin-left:60px;
+      }
+  ul li{
+  list-style: none;
+  display : inline-block;
+  line-height : 50px;
+        }
+  ul li a{
+  display: block;
+  text-decoration : none;
+  font-size: 18px;
+  font-family:cursive;
+  color:white;
+  padding: 0 20px;
+          }
+div.gallery {
+            margin: 5px;
+            border: 5px solid rgb(151, 8, 8);
+            float: left;
+            width: 180px;
+          }
+          
+div.gallery:hover {
+            border: 1px solid rgb(224, 28, 28);
+          }
+          
+div.gallery img {
+            width: 100%;
+            height: auto;
+          }
+          
+ div.desc {
+            padding: 15px;
+            text-align: center;
+          }
+          div.gallery_s {
+            margin: 5px;
+            border: 5px solid rgb(151, 8, 8);
+            float: left;
+            width: 180px;
+          }
+          
+div.gallery_s:hover {
+            border: 1px solid rgb(201, 22, 22);
+          }
+          
+div.gallery_s img {
+            width: 100%;
+            height: auto;
+          }
+          
+
+.food {
+  text-align: center;
+            border: 1px solid rgb(252, 245, 245);
+            padding: 8px;
+            font-style: italic;
+          }   
+.img_grid{
+  width:100%;
+  
+  float: left;
+  padding: 1px;
+  
+}
+.grid{
+
+  width: 50%;
+  height: 350px;
+  float:none;
+  padding: 20px;
+}
+
+.first{
+  color: rgb(233, 218, 212);
+  background-attachment: fixed;
+  background-color: rgb(17, 2, 2);
+}
+.link{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: small;
+  color: rgb(34, 2, 31);
+  background-color: rgb(245, 136, 136);
+
+}
+
+div.second{
+  background-image: url(Mama.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height:200PX;
+  background-color: #000000;
+  background-position: center;
+}

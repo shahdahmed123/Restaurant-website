@@ -1,0 +1,79 @@
+*{
+    margin:0px;
+    padding:0px;
+    }
+    body{
+      background-color: rgba(165, 165, 165, 0.452);
+    }
+    ul {
+    margin-left:60px;
+        }
+    ul li{
+    list-style: none;
+    display : inline-block;
+    line-height : 50px;
+          }
+    ul li a{
+    display: block;
+    text-decoration : none;
+    font-size: 18px;
+    font-family:cursive;
+    color:white;
+    padding: 0 20px;
+            }
+ .first{
+    border: rgb(18, 238, 154) 5px ;
+    background-color: black;
+    width:100%;
+    height :50PX;
+    margin-left: 0;
+    position: fixed;
+          }
+  
+    button { 
+       color: black;
+       background-color: rgb(252, 208, 14);
+       font-family: 'Courier New', Courier, monospace;
+       font-size: 22px;
+            }
+ .appetizers{
+ border : 5px  #6edbc9 solid;
+ Width : 550px;
+ height: 550px;
+ padding:5px;
+ margin-left: 43px;
+        }
+.sauce{
+            border : 5px  #832d2d double;
+            Width : 302px;
+            height: 390px;
+            padding:5px;
+            margin-bottom: 20px;
+            margin-left: 130px;
+            display : inline-block; 
+         }
+         
+ .price{
+ font-size: larger;
+ font-family: Arial, Helvetica, sans-serif;
+ display: inline-block;
+ color: green;
+      }
+
+ ::selection{
+ color:green;
+ background-color: yellow;
+ }
+ @media screen and (max-width: 600px){
+      body{
+ background: rgb(255, 253, 253);
+      }
+      ul {
+            margin-left:0px;
+                }
+      ul li{
+            list-style: none;
+            display : inline-block;
+            line-height : 20px;
+           }
+          }
